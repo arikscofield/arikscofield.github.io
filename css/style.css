@@ -6,6 +6,7 @@ html {
 /* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 header, footer {
@@ -14,7 +15,6 @@ header, footer {
 }
 
 header {
-  font-family: 'Lato', sans-serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -24,7 +24,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
-  margin-top: 44px;
+  margin: 44px 20px 0 20px;
   justify-items: center;
   justify-content: center;
   align-items: stretch;
@@ -41,12 +41,13 @@ h1 {
 
 h2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
   color: #0c4452;
   padding: 10px 0px 10px 10px;
+  margin-left: 10px;
 }
 
 img {
@@ -64,8 +65,7 @@ img {
 
 .bio {
 color: #ffffff;
-font-size: 24px;
-font-family: 'Lato', sans-serif;
+font-size: 24px
 }
 
 .buttonBox {
@@ -94,55 +94,20 @@ font-family: 'Lato', sans-serif;
     top:1px;
 }
 
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+.project {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
   width: 100%;
 }
 
-a {
-  color: #02537b;
-}
-
-.c {
-
-}
-
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.mins {
-  display: inline-block;
-  font-family: 'Rubik', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
-}
-
 .description {
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
+  padding: 10px 10px 10px 20px;
+  border-top: 1px outset #e9e8e8;
 }
 
 .container {
@@ -152,10 +117,10 @@ a {
 
 footer div {
   height: 100%;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   align-content: center;
+  margin-top: 20px;
   padding: 10px 20px;
   color: rgba(255, 255, 255, 0.55);
 }
